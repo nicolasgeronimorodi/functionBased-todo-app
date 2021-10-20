@@ -1,3 +1,8 @@
+Este proyecto es un clon del que se encuentra en Cursos_Programacion\Curso_Digitalers\Modulo7_IntroJavascript\React\proyecto_todolist
+
+
+----
+
 ## React Tutorial – The Beginners Guide to Learning React JS in 2020
 
 [To follow this React tutorial](https://ibaslogic.com/blog/react-tutorial-for-beginners/)

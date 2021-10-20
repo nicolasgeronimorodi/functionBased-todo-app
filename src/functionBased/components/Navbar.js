@@ -11,6 +11,10 @@ const links = [
       path: "/about",
       text: "About",
     },
+
+    {id: 3,
+    path: "/makeprofile",
+    text: "Generar perfil"}
   ]
 
 const Navbar = () => {

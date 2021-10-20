@@ -9,10 +9,17 @@ import { useState, useEffect } from "react";
 import About from "./pages/About";
 import NotMatch from "./pages/NotMatch";
 import Navbar from "./Navbar"
+import UserPage from "./pages/UserPage";
+import SinglePage from "./pages/SinglePage";
+import GenerateProfile from "./GenerateProfile";
+
 
 
 const TodoContainer=()=>{
-  const [todos, setTodos]=useState( getInitialTodos()      ) /// 
+
+  
+
+    const [todos, setTodos]=useState( getInitialTodos()      ) /// 
 
 const handleChange=id=>{
   setTodos(prevState=>  
@@ -67,6 +74,10 @@ useEffect(() => {
   localStorage.setItem("todos", temp)
 }, [todos])
 
+useEffect(  () =>{
+const username=localStorage.getItem("username")
+})
+
 
 
 return (
@@ -90,6 +101,16 @@ return (
   <Route path="/about">
     <About />
   </Route>
+  
+<Route path="/makeprofile" component={GenerateProfile}>
+  
+  </Route>
+
+  <Route path="/user/:username"> 
+  <UserPage  />
+  </Route>
+
+
   <Route path="*">
     <NotMatch />
   </Route>
