@@ -1,4 +1,4 @@
-Este proyecto es un clon del que se encuentra en Cursos_Programacion\Curso_Digitalers\Modulo7_IntroJavascript\React\proyecto_todolist
+
 .
 
 
@@ -34,4 +34,6 @@ Finally, start your development server by running:
 npm start
 ```
 
+
+Este proyecto es un clon del que se encuentra en Cursos_Programacion\Curso_Digitalers\Modulo7_IntroJavascript\React\proyecto_todolist
 You should see the app in your browser address bar at [http://localhost:3000](http://localhost:3000)
